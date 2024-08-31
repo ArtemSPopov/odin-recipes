@@ -1,0 +1,36 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  color: white;
+  background-color: rgb(13, 17, 23);
+}
+
+.heading {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.heading.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.recipe-photo {
+  height: 400px;
+  width: auto;
+}
+
+a {
+  color: #2f81f7;
+  font-size: 20px;
+}
+
+#heading-main {
+  font-size: 36px;
+  text-align: center;
+}
+
+#menu {
+  text-align: center;
+  color: transparent;
+}
