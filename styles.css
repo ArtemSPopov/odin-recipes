@@ -1,7 +1,44 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Verdana, Arial, sans-serif;
-  color: white;
-  background-color: rgb(13, 17, 23);
+  font-family: Garamond, serif;
+  background-color: #ffffff;
+  color: #353535;
+}
+
+.menu-card {
+  border: 3px dotted #e07a5f;
+  width: 500px;
+  margin: 18px auto 0;
+}
+
+.heading-main {
+  font-size: 36px;
+  text-align: center;
+  margin: 24px 0;
+}
+
+.heading-section {
+  font-size: 24px;
+  margin: 16px 34px;
+}
+
+a {
+  color: #083d77;
+  font-size: 20px;
+}
+
+.menu-link {
+  display: block;
+  margin: 10px 54px;
+}
+
+.menu-link:last-of-type {
+  margin-bottom: 34px;
 }
 
 .heading {
@@ -20,17 +57,7 @@ body {
   width: auto;
 }
 
-a {
-  color: #2f81f7;
-  font-size: 20px;
-}
-
-#heading-main {
-  font-size: 36px;
-  text-align: center;
-}
-
-#menu {
+.menu {
   text-align: center;
   color: transparent;
 }
